@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="top_stories_url">https://api.nytimes.com/svc/topstories/v2/%1$s.json?api-key=%2$s</string>
+</resources>

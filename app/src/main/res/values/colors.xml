@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d32f2f</color>
+    <color name="colorPrimaryDark">#9a0007</color>
+    <color name="colorAccent">#448AFF</color>
+    <color name="actionbarBackground">@android:color/holo_red_dark</color>
+    <color name="newsStoryItemBackground">@android:color/white</color>
+    <color name="hyperlinkColor">#0000EE</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="newsStoryPadding">10dp</dimen>
+    <dimen name="newsStoryItemMargin">10dp</dimen>
+    <dimen name="newsStoryImageSize">100dp</dimen>
+    <dimen name="newsStoryHeight">150dp</dimen>
+    <dimen name="halfFABHeight">-36dp</dimen>
+    <dimen name="newsItemSpace">1dp</dimen>
+    <dimen name="shortUrlTextSize">12sp</dimen>
+    <dimen name="descriptionTextSize">12sp</dimen>
+    <dimen name="titleTextSize">16sp</dimen>
+    <dimen name="errorTextSize">16sp</dimen>
+
+
+
+</resources>

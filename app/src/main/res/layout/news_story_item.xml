@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/newsStoryHeight"
+    android:background="@color/newsStoryItemBackground"
+    android:padding="@dimen/newsStoryPadding">
+    <ImageView
+        android:id="@+id/newsImage"
+        android:transitionName="newsTransition"
+        android:layout_width="@dimen/newsStoryImageSize"
+        android:layout_height="@dimen/newsStoryImageSize"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/newsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="@dimen/titleTextSize"
+        android:layout_marginLeft="@dimen/newsStoryItemMargin"
+        android:layout_above="@+id/newsLink"
+        android:layout_toRightOf="@+id/newsImage"/>
+
+    <TextView
+        android:id="@+id/newsLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:textColorLink="@color/hyperlinkColor"
+        android:textSize="@dimen/shortUrlTextSize"
+        android:layout_marginLeft="@dimen/newsStoryItemMargin"
+        android:layout_marginBottom="@dimen/newsStoryItemMargin"
+        android:layout_alignBottom="@+id/newsImage"
+        android:layout_toRightOf="@+id/newsImage" />
+</RelativeLayout>
